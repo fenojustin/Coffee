@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Form } from 'react-router-dom';
 import Home from './Home/Home';
 import Layout from './Layout/Layout';
 import Footer from './Footer/Footer'
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Card from './Card/Card'
 import Delivery from "./Delivery/Delivery";
 import AboutUs from "./About/AboutUs";
+import Popular from "./Popular/Popular";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
   React.useEffect(() => {
     AOS.init({
@@ -21,8 +23,10 @@ function App() {
     <Router>
       <Layout>
         <Home />
+        <Popular/>
         <Delivery />
         <AboutUs />
+        <Card/>
         <Footer/>
       </Layout>
     </Router>

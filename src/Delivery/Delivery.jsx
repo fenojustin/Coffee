@@ -2,7 +2,7 @@ import cup from '../assets/cup.png'
 const DeliverySteps = () => {
     return (
         <>
-            <section className="bg-white py-20 px-8 text-center" id="delivery" data-aos="fade-up"
+            <section className="bg-white py-20 px-8 text-lef" id="delivery" data-aos="fade-up"
                 data-aos-duration="3000">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-16">
                 How to use delivery <span className="text-orange-500 underline decoration-orange-300 decoration-4">service</span>
@@ -36,7 +36,7 @@ const DeliverySteps = () => {
                     <img
                             src={cup}
                         alt="Enjoy your coffee"
-                        className="w-20 h-20"
+                        className="w-20 h-20 "
                     />
                     <h3 className="text-xl font-semibold text-gray-800">Enjoy your coffee</h3>
                     <p className="text-sm text-gray-600">Choose delivery service</p>
