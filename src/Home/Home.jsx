@@ -32,10 +32,11 @@ const Home = () => {
                    
                     </div>
                     <h1 className="font-bold mt-20 text-2xl">Popular <span className="underline decoration-orange-400 decoration-4">Now</span> </h1>
+                    <Popular />
                 </div>
 
                 {/* Right Side - Featured Coffee */}
-                <div className="relative z-10 mt-12 lg:mt-0">
+                <div className="relative z-10 mt-12 lg:mt-0 y-10" data-aos='fade-left' data-aos-duration="800">
                     <div className="bg-gradient-to-tr bg-orange-950 p-6 w-[340px] h-[340px] rounded-full  relative">
                         <img
                             src={logo} // Remplace par ta propre image
@@ -57,7 +58,7 @@ const Home = () => {
                     </div>
                   
                 </div>
-                <Popular/>
+               
             </div>
         </>
     );

@@ -6,7 +6,7 @@ import Footer from './Footer/Footer'
 import Card from './Card/Card'
 import Delivery from "./Delivery/Delivery";
 import AboutUs from "./About/AboutUs";
-import Popular from "./Popular/Popular";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
@@ -23,11 +23,10 @@ function App() {
     <Router>
       <Layout>
         <Home />
-        <Popular/>
         <Delivery />
         <AboutUs />
-        <Card/>
-        <Footer/>
+        <Card />
+        <Footer />
       </Layout>
     </Router>
   );
